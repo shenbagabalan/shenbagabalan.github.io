@@ -14,16 +14,16 @@ body{
     box-shadow: 0 0 3px 3px #090;
      }
      input[type=radio] + label>img {
-        border: 1px dashed #444;
-        width: 150px;
-        height: 150px;
+        border: 1px #444;
+        width: 180px;
+        height: 200px;
         transition: 500ms all;
       }
       
       input[type=radio]:checked + label>img {
         transform: 
-          rotateZ(-10deg) 
-          rotateX(10deg);
+          rotateZ(-5deg) 
+          rotateX(5deg);
       }
  html {
         background-color: #fff;
