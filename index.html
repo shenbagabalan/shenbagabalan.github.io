@@ -125,8 +125,9 @@
             </form>
         </div>
         <script>
+            let name;
             function reg(){ 
-            var name = prompt("Please enter your Name"); 
+            name = prompt("Please enter your Name"); 
             if (name != null) { 
                 document.getElementById("g").innerHTML = " All the best " + name; 
             } 
@@ -166,7 +167,8 @@
             var q10=document.myform.q10.value;
             alert("q1 "+q1+" q2 "+q2+" q3 "+q3+" q4 "+q4+" q5 "+q5+" q6 "+q6+" q7 "+q7+" q8 "+q8+" q9 "+q9+" q10 "+q10);
             }*/
-            alert(" You belong to " +result+ " group...   Congrats! ");
+            let sign=result.toUpperCase();
+            alert("Hey " + name + ", You belong to *" + sign + "* group...   Congrats! ");
         }
             </script>
     </body>
