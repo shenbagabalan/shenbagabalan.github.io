@@ -4,27 +4,29 @@ body{
     font-family:'Times New Roman', Times, serif;
     background-image: url(grey.jpg);
 }
+body h1{
+  text-align: center;
+  background-color: rgb(128, 190, 128);
+}
 .input-hidden {
     position: absolute;
     left: -9999px;
-  }
-  
+  } 
   input[type=radio]:checked + label>img {
     border: 1px solid #fff;
     box-shadow: 0 0 3px 3px #090;
      }
      input[type=radio] + label>img {
         border: 1px #444;
-        box-shadow: 0 0 3px 3px rgb(0, 0, 0);
         width: 180px;
         height: 200px;
         transition: 500ms all;
+        box-shadow: 0 0 3px 3px rgb(0, 0, 0);
       }
-      
       input[type=radio]:checked + label>img {
         transform: 
-          rotateZ(-5deg) 
-          rotateX(5deg);
+          rotateZ(-2deg) 
+          rotateX(2deg);
       }
  html {
         background-color: #fff;
@@ -42,3 +44,19 @@ body{
             transparent .1em
           );
       }      
+      .content {
+        max-width: 750px;
+        margin: auto;
+        background-color: rgb(255, 248, 248);
+        padding: 100px;
+      }
+      .var{
+        align-content: center;
+        box-shadow: 0 0 3px 3px #090;
+        text-shadow: black;
+      }
+      .sim{
+        text-align: center;
+        font-size: large;
+}
+      }
